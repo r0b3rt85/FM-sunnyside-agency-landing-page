@@ -288,7 +288,8 @@ section {
 
 
 .left,
-.right {
+.right,
+.testimonials {
   height: 600px;
 }
 
@@ -319,10 +320,23 @@ section {
 }
 
 
+.gallery__image {
+  width: 100%;
+  grid-column: auto;
+  object-position: center;
+  object-fit: cover;
+}
+
 
 
 
 /* Footer */
+footer {
+  height: 300px;
+  background-color: #90D4C5;
+  color: var(--c-primary-dark-mod-cyan);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
