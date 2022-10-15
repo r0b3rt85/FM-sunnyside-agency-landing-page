@@ -3,7 +3,9 @@
 :root {
   /* Primary */
   --c-primary-soft-red: hsl(7, 99%, 70%);
+  --c-primary-soft-red-20: hsla(7, 99%, 70%, 20%);
   --c-primary-yellow: hsl(51, 100%, 49%);
+  --c-primary-yellow-20: hsla(51, 100%, 49%, 20%);
   --c-primary-dark-de-cyan: hsl(167, 40%, 24%);
   --c-primary-dark-blue: hsl(198, 62%, 26%);
   --c-primary-dark-mod-cyan: hsl(168, 34%, 41%);
@@ -167,16 +169,26 @@ section {
   font-size: 18px;
   background-color: var(--c-neutral-white);
   border: none;
+  transition: background-size .4s ease;
 }
-
 .button.yellow {
-  border-bottom: 10px solid var(--c-primary-yellow);
+  background: linear-gradient(to bottom, transparent 70%, var(--c-primary-yellow-20) 0) center center/100% 75% no-repeat;
 }
-
 .button.red {
-  border-bottom: 10px solid var(--c-primary-soft-red);
+  background: linear-gradient(to bottom, transparent 70%, var(--c-primary-soft-red-20) 0) center center/100% 75% no-repeat;
 }
 
+.button.red:hover {
+  background: linear-gradient(to bottom, transparent 70%, var(--c-primary-soft-red) 0)center center/100% 75% no-repeat;
+  background-size: 100% 100%;
+  }
+  .button.yellow:hover {
+  background: linear-gradient(to bottom, transparent 70%, var(--c-primary-yellow) 0) center center/100% 75% no-repeat;
+ background-size: 100% 100%;
+  }
+.button:active {
+    background-size: 80% 100%;
+  }
 
 
 .left,
@@ -253,7 +265,7 @@ section {
   max-width: 330px;
   font-family: var(--f-body);
   font-size: 1rem;
-  margin-bottom: 60px;
+  margin: 0px 1rem 60px 1rem;
 }
 
 .testimonials {

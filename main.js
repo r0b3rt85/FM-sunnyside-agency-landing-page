@@ -1,3 +1,5 @@
+
+// Navigation toggle
 const navOpen = () => {
   const navButton = document.getElementById('nav-button');
   const nav = document.getElementById('nav-items')
@@ -6,6 +8,5 @@ const navOpen = () => {
     nav.classList.toggle('show');
   });
 };
-
 navOpen();
 
