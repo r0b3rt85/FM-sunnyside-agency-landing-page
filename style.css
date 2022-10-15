@@ -151,8 +151,9 @@ section {
 /* other sections */
 .content__title {
   font-family: var(--f-head);
+  font-size: 2.5em;
   font-weight: 700;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
   color: var(--c-neutral-v-dark-de-blue);
 }
 
