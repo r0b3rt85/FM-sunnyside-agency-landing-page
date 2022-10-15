@@ -143,7 +143,7 @@ section {
   font-size: 3em;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.8rem;
   color: var(--c-neutral-white);
   margin: 100px 0;
 }
