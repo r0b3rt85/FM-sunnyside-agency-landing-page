@@ -27,8 +27,8 @@ Above is a screenshot of the live website with the completed solution.
 
 ### Links
 
-- Solution URL: [https://github.com/r0b3rt85/FM---QR-Code-Component](https://github.com/r0b3rt85/FM---QR-Code-Component)
-- Live Site URL: [https://fm-qr-code-component-six.vercel.app](https://fm-qr-code-component-six.vercel.app)
+- Solution URL: [https://github.com/r0b3rt85/FM-sunnyside-agency-landing-page](https://github.com/r0b3rt85/FM-sunnyside-agency-landing-page)
+- Live Site URL: [https://fm-sunnyside-agency-landing-page-omega.vercel.app](https://fm-sunnyside-agency-landing-page-omega.vercel.app)
 
 ## My process
 
