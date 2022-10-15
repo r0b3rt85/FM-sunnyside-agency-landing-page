@@ -140,9 +140,10 @@ section {
 .hero__title {
   font-family: var(--f-head);
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3em;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.4rem;
   color: var(--c-neutral-white);
   margin: 100px 0;
 }
@@ -151,14 +152,14 @@ section {
 .content__title {
   font-family: var(--f-head);
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5em;
   color: var(--c-neutral-v-dark-de-blue);
 }
 
 .content__description {
   font-family: var(--f-body);
   font-weight: 600;
-  line-height: 1.2rem;
+  line-height: 1.2em;
   color: var(--c-neutral-dark-gray-blue);
   margin-bottom: 2rem;
 }
@@ -166,7 +167,7 @@ section {
 .button {
   font-family: var(--f-head);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.2em;
   background-color: var(--c-neutral-white);
   border: none;
   transition: background-size .4s ease;
@@ -257,21 +258,23 @@ section {
   max-width: 330px;
   font-family: var(--f-head);
   font-size: 1.5rem;
-  margin-bottom: 24px;
+  margin-bottom: 1.2em;
 
 }
 
 .both__description {
   max-width: 330px;
   font-family: var(--f-body);
+  text-align: center;
   font-size: 1rem;
   margin: 0px 1rem 60px 1rem;
 }
 
 .testimonials {
+  height: 780px;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
+  margin: auto;
 }
 
 .testimonials__wrapper {
@@ -290,7 +293,7 @@ section {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .testimonials__icon {
