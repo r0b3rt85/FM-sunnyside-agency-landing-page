@@ -170,6 +170,7 @@ section {
   font-weight: 700;
   font-size: 1.2em;
   background-color: var(--c-neutral-white);
+  text-transform: uppercase;
   border: none;
   transition: background-size .4s ease;
 }
@@ -363,6 +364,8 @@ footer {
 }
 
 .footer__item {
+  font-family: var(--f-body);
+  font-weight: 600;
   padding: 0 1.5rem;
 }
 
